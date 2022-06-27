@@ -466,7 +466,7 @@ li {
 }
   
 #paragraph1 {
-    background-color: #c7eae5;
+    background-color: #dfc27d;
     padding-right: 50px;
     padding-bottom: 30px;
 }
@@ -476,7 +476,7 @@ li {
 }
 
 #paragraph3 {
-    background-color: #c7eae5;
+    background-color: #dfc27d;
     padding-bottom: 30px;
 }
 
@@ -515,7 +515,7 @@ li {
 .btn {
     border: none;
     outline: none;
-    background: #80cdc1;
+    background: #c7eae5;
     padding: 10px 30px;
     font-size: 20px;
     color: #8c510a;
@@ -527,7 +527,7 @@ li {
 .btn1 {
     border: none;
     outline: none;
-    background: #80cdc1;
+    background: #c7eae5;
     padding: 10px 30px;
     font-size: 20px;
     color: #8c510a;
