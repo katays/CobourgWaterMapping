@@ -734,7 +734,7 @@ line-height: 25px;
 
 .text {
     color: white;
-    font-size: auto;
+    font-size: 0.75vw;
     position: absolute;
     width: 100%;
     margin: 0px;
