@@ -17,7 +17,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: 100%;
-    background-color: #DEEAEC;
+    background-color: #f6e8c3;
 }
 
 .page-header {
@@ -35,13 +35,13 @@ p {
 /* this is the colour settings for the whole navbar - BC */ 
 .topnav {
     overflow: hidden;
-    background-color: #005F73; 
+    background-color: #003c30; 
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: white;
+    color: #f5f5f5;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -50,13 +50,13 @@ p {
 
 /* settings for when you are hovering over a new page in navbar and when you are hovering over Projects dropdown- BC */
 .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #54b4b6;
+    background-color: #bf812d;
     color: white;
 }
 
 /* page you are on is highlighted with these settings - BC */
 .topnav .active {
-    background-color: #0A9396;
+    background-color: #01665e;
     color: white;
 }
 
@@ -99,7 +99,7 @@ p {
     font-size: 16px;  
     border: none;
     outline: none;
-    color: white;
+    color: #f5f5f5;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -109,7 +109,7 @@ p {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #0A9396;
+    background-color: #bf812d;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -125,7 +125,7 @@ p {
 }
 
 .dropdown-content a:hover {
-    background-color: #54b4b6;
+    background-color: #bf812d;
 }
 
 .dropdown:hover .dropdown-content {
@@ -171,7 +171,7 @@ footer {
     width: 100%;
     padding: 2px 0px;
     margin: 8px 0px;
-    background-color: #005F73;
+    background-color: #003c30;
     color: white;
     text-align: center;
     clear: both;
@@ -191,7 +191,7 @@ footer p {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #CA6702;
+    background-color: #35978f;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -199,7 +199,7 @@ footer p {
 }
 
 #topBtn:hover {
-    background-color: #BB3E03;
+    background-color: #bf812d;
 }
 
 h1 {
@@ -211,7 +211,7 @@ h1 {
 
 h2 {
   font-size: 35px;
-  color: #9B2226;
+  color: #543005;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -219,14 +219,14 @@ h2 {
 
 h3 {
  font-size: 30px;
- color: #AE2012;
+ color: #543005;
  text-align: center;
  padding-top: 20px;
 }
 
 h4 {
   font-size: 25px;
-  color: #BB3E03;
+  color: #543005;
   text-align: center;
 }
 
@@ -357,7 +357,7 @@ we change the image to just be simple a block element displayed above the text *
 
 /*div styling projects page for clarity - KS April 19*/
 .phase1 {
-    background-color: #EBF2F3 ;
+    background-color: #f6e8c3 ;
     padding: 0px 0px 30px 0px;
 }
 
@@ -382,14 +382,14 @@ table {
     padding: 50px;
     font-weight: bold;
     font-size: 25px;
-    color: #005F73;
+    color: #01665e;
 }
 .t-heading-responsive {
     display: none;
     padding: 50px;
     font-weight: bold;
     font-size: 25px;
-    color: #005F73;
+    color: #01665e;
 }
 .t-heading-responsive td {
     text-align: center;
@@ -407,7 +407,7 @@ table {
 }
 
 .t-exp {
-    color:#9B2226;
+    color:#8c510a;
     font-weight: bold;
 }
 
@@ -417,7 +417,7 @@ table {
     float: right; 
     margin-top: 50px;
     margin-right: 10px;
-    background-color: #def0ea;
+    background-color: #c7eae5;
     padding-right: 30px;
 }
 /* on thin screens, stack block elements on top of each other instead of floating*/
@@ -466,7 +466,7 @@ li {
 }
   
 #paragraph1 {
-    background-color: #cde9ea;
+    background-color: #c7eae5;
     padding-right: 50px;
     padding-bottom: 30px;
 }
@@ -476,7 +476,7 @@ li {
 }
 
 #paragraph3 {
-    background-color: #cde9ea;
+    background-color: #c7eae5;
     padding-bottom: 30px;
 }
 
@@ -515,10 +515,10 @@ li {
 .btn {
     border: none;
     outline: none;
-    background: #c6e6dc;
+    background: #80cdc1;
     padding: 10px 30px;
     font-size: 20px;
-    color: #71140C;
+    color: #8c510a;
     cursor: pointer;
     margin: 20px auto;
     margin-left: 160px;
@@ -527,21 +527,21 @@ li {
 .btn1 {
     border: none;
     outline: none;
-    background: #c6e6dc;
+    background: #80cdc1;
     padding: 10px 30px;
     font-size: 20px;
-    color: #71140C;
+    color: #8c510a;
     cursor: pointer;
     margin: 20px auto;
     margin-left: 160px;
 }
   
 .btn:hover {
-      background: #94D2BD;
+      background: #dfc27d;
 }
   
 .btn1:hover {
-      background: #94D2BD;
+      background: #dfc27d;
 }
   
 .big-headings h1 {
@@ -557,7 +557,7 @@ img {
 /* Divider btw sections in "body" of Methodology */
 .thin-divider {
     height: 4px;
-    background-color: #deeaec;
+    background-color: #f5f5f5;
     clear: both;
 }
 
@@ -590,7 +590,7 @@ p.project-page {
 #water-quality-explained {
     height: 330;
     align-items: center;
-    color: #005F73;
+    color: #01665e;
     margin: 20px 20px 20px 70px;
     line-height: 25px;
     clear:both;
@@ -638,7 +638,7 @@ line-height: 25px;
 /*19/04/2022 AH*/
 .to-the-left{
     font-size:35px;
-    color: #9B2226;
+    color: #8c510a;
     text-align:left;
     margin-top: 10px;
     margin-bottom:10px;
@@ -652,7 +652,7 @@ line-height: 25px;
 
 /*19/04/2022 AH*/
 .para-margin { 
-    color: #005F73;
+    color: #01665e;
     margin: auto;
     line-height: auto;
     max-width: 80%;
@@ -667,7 +667,7 @@ line-height: 25px;
 
 /*19/04/2022 AH*/
 .pretty-box {
-    background-color: #005F73;
+    background-color: #35978f;
     color: white;
     padding-left: 15px;
     padding-right: 15px;
@@ -722,7 +722,7 @@ line-height: 25px;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #BB3E03;
+    background-color: #003c30;
     /* needs same max size as the image */
     max-height: 525px;
     max-width: 350px;
@@ -733,7 +733,7 @@ line-height: 25px;
 }
 
 .text {
-    color: white;
+    color: #f5f5f5;
     font-size: 0.75vw;
     position: absolute;
     width: 100%;
